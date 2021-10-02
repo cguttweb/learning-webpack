@@ -1,0 +1,16 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+
+body {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+.hello {
+  background-image: url(3c4cd9c07a990ef46cd0.jpg);
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguY3NzIiwibWFwcGluZ3MiOiI7Ozs7QUFDQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UseURBQTZDO0VBQzdDLGNBQWM7RUFDZCxlQUFlO0FBQ2pCLEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93ZWJwYWNrLWRlbW8vLi9zcmMvc3R5bGVzLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJcbmJvZHkge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzMzMzO1xuICBjb2xvcjogI0ZGRkZGRjtcbn1cblxuLmhlbGxvIHtcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuL29seW1waWNzLXJpbmdzLmpwZycpO1xuICBjb2xvcjogI0ZGRkZGRjtcbiAgZm9udC1zaXplOiAzNnB4O1xufSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/

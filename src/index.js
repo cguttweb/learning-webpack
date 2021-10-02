@@ -1,24 +1,43 @@
-import _ from 'lodash'
+// import _ from 'lodash'
 import './styles.css'
 import image from './olympics-rings.jpg'
 import printMe from './print'
 
-function component() {
-  const el = document.createElement('div')
-  const btn = document.createElement('button')
+// function getComponent() {
+  async function getComponent(){
+    const el = document.createElement('div')
+    const { default: _ } = await import('lodash')
 
-  el.innerHTML = _.join(['Hello', ' webpack'], ' ')
-  el.classList.add('hello')
+    el.innerHTML = _.join(['Hello', 'webpack'], ' ')
 
-  btn.innerHTML = 'Click Me'
-  btn.onclick = printMe
+  // return import('lodash')
+  // .then(({ default: _ }) => {
+    // const element = document.createElement('div')
 
-  const img = new Image()
-  img.src = image
+  //   element.innerHTML = _.join(['Hello', 'webpack'], ' ')
+  //   element.classList.add('hello')
+  //   return element
+  // })
+  // .catch((error) => 'An error has occurred while loading component')
 
-  el.appendChild(btn)
+  // const btn = document.createElement('button')
+
+  // el.innerHTML = _.join(['Hello', ' webpack'], ' ')
+  // el.classList.add('hello')
+
+  // btn.innerHTML = 'Click Me'
+  // btn.onclick = printMe
+
+  // const img = new Image()
+  // img.src = image
+
+  // el.appendChild(btn)
 
   return el
 }
 
-document.body.appendChild(component());
+// document.body.appendChild(component());
+
+getComponent().then((component) => {
+  document.body.appendChild(component)
+})
